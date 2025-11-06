@@ -1,0 +1,59 @@
+ body {
+      font-family: 'Inter', sans-serif;
+    }
+    .hero {
+      background: 
+        linear-gradient(rgba(68, 198, 175, 0.1), rgba(68, 198, 175, 0.1)),
+        url('https://images.unsplash.com/photo-1620825937374-87fc7d6bddc2?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1331') center/cover no-repeat;
+      color: white;
+      padding: 10rem 8rem;
+      text-align: center;
+    }
+    .btn-brand {
+    background-color: #44C6AF;
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+    }
+    .bold {
+    font-weight: 700;         
+    color: #44C6AF;
+    }
+    .btn-brand:hover {
+    background-color: #3ab099;
+    color: white;
+    }
+    .large-text {
+      font-size: 2rem;
+      font-weight: 600;
+      text-align: center;
+      padding: 5rem 5rem;
+    }
+    .brand-carousel img {
+      max-height: 60px;
+      margin: 0 auto;
+    }
+    .tech-carousel img {
+      max-height: 50px;
+      margin: 0 auto;
+    }
+    .testimonial-card {
+      background: #f8f9fa;
+      border-radius: 12px;
+      padding: 1.5rem;
+    }
+    .cta-section {
+      background: #86C7BB;
+      color: white;
+      text-align: center;
+      padding: 4rem 5rem;
+    }
+    footer {
+      background: #448AC7;
+      color: white;
+      padding: 2rem 0;
+      text-align: center;
+    }
+    html {
+    scroll-behavior: smooth;
+    }
